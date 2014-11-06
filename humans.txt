@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jason Reading - me - @jasonjreading
+
+# THANKS
+
+    Greg Owen - heygreg.co.uk
+
+# TECHNOLOGY
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    SASS, Bourbon, Neat, Bitters
