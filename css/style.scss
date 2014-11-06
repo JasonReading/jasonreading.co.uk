@@ -1,4 +1,10 @@
 @import "normalize";
-@import "base/grid-settings";
 @import "bourbon/bourbon";
+@import "base/grid-settings";
+@import "base/base";
 @import "neat/neat";
+
+
+.feature {
+  @include outer-container();
+}

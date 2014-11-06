@@ -23,7 +23,9 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
+$blue: #C7D1AF;
+$sky: #96B49C;
+$forest: #5B5847;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #DDD;
@@ -31,12 +33,13 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
+
 // Background Color
-$base-background-color: white;
+$base-background-color: #FFFEC6;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: #CC5D4C;
 
 // Link Colors
 $base-link-color: $base-accent-color;
