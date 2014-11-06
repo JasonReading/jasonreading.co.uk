@@ -11,10 +11,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
-    <meta name="description" content="">
+    <meta name="description" content="Jason Reading Web Developer Romford and Brentwood. Personal website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/modernizr/modernizr.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -24,8 +24,7 @@
 <main>
     <article itemscope itemtype="http://data-vocabulary.org/Person">
 
-        <h1>Hi, I’m <span itemprop="name">Jason Reading</span> and I am a <span itemprop="title">Web Developer</span>.
-        </h1>
+        <h1>Hi, I’m <span itemprop="name">Jason Reading</span> and I am a <span itemprop="title">Web Developer</span>.</h1>
 
         <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="intro">I work at <a
                 href="http://weebie.co.uk/" target="_blank" itemprop="affiliation">Weebie Ltd</a> in <span
@@ -69,24 +68,9 @@
 </aside>
 <aside>
     <h2>Web Design</h2>
-    <p>I work closely with <a href="http://heygreg.co.uk" rel="friend" target="_blank">Greg Owen</a>, check him out!</p>
+    <p>I work closely with <a href="http://heygreg.co.uk" target="_blank" rel="friend">Greg Owen</a>, check him out!</p>
 </aside>
 <footer>&copy; Jason Reading <?php date_default_timezone_set('Europe/London'); echo date('Y'); ?></footer>
-<script>
-    (function (J, a, s, o, n, R) {
-        J.GoogleAnalyticsObject = o;
-        J[o] || (J[o] =
-            function () {
-                (J[o].q = J[o].q || []).push(arguments)
-            });
-        J[o].l = +new Date;
-        n = a.createElement(s);
-        R = a.getElementsByTagName(s)[0];
-        n.src = '//www.google-analytics.com/analytics.js';
-        R.parentNode.insertBefore(n, R)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-</script>
+<?php include '_analytics.php'; ?>
 </body>
 </html>
