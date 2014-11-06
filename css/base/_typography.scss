@@ -15,7 +15,7 @@ h5,
 h6 {
   font-family: $header-font-family;
   line-height: $header-line-height;
-  margin: 0;
+  margin: .5em 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
@@ -23,11 +23,11 @@ h1 {
   font-size: $h1-font-size;
 }
 
-h2 {
+%h2, h2 {
   font-size: $h2-font-size;
 }
 
-h3 {
+%h3, h3 {
   font-size: $h3-font-size;
 }
 
@@ -60,6 +60,11 @@ a {
     color: $hover-link-color;
     outline: none;
   }
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
 }
 
 hr {

@@ -1,10 +1,54 @@
+$em-base: 18px;
 @import "normalize";
 @import "bourbon/bourbon";
 @import "base/grid-settings";
 @import "base/base";
 @import "neat/neat";
 
+p.intro {
+  @extend %h2;
+}
 
 .feature {
+  color: $forest;
+  background-color: $blue;
+
+  &__container {
+    @include outer-container;
+    @include pad(15% em(45) em(45));
+  }
+
+  &__cell {
+    @include span-columns(8);
+  }
+}
+
+.container {
   @include outer-container();
+}
+
+.main {
+  @include span-columns(8);
+  @include pad(em(45));
+}
+
+.side {
+  @include span-columns(4);
+  @include omega;
+  @include pad(em(45));
+}
+
+.footer {
+  // TODO: Sticky footer
+  &__container {
+    @include outer-container();
+    @include pad();
+
+    p {
+      font-size: em(12);
+      text-align: right;
+
+    }
+  }
+  background-color: $blue;
 }

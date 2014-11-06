@@ -1,16 +1,16 @@
 // Typography
-$sans-serif: $helvetica;
-$serif: $georgia;
+$sans-serif: sans-serif;;
+$serif: serif;
 $base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+$header-font-family: $serif;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: 18px;
 $h1-font-size: $base-font-size * 2.25;
-$h2-font-size: $base-font-size * 2;
-$h3-font-size: $base-font-size * 1.75;
-$h4-font-size: $base-font-size * 1.5;
-$h5-font-size: $base-font-size * 1.25;
+$h2-font-size: $base-font-size * 1.5;
+$h3-font-size: $base-font-size * 1.4;
+$h4-font-size: $base-font-size * 1.3;
+$h5-font-size: $base-font-size * 1.2;
 $h6-font-size: $base-font-size;
 
 // Line height
@@ -23,7 +23,8 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #C7D1AF;
+$yellow: #FFFEC6;
+$blue: #ececec; // C7D1AF
 $sky: #96B49C;
 $forest: #5B5847;
 $dark-gray: #333;
@@ -35,7 +36,7 @@ $light-green: #E6EFC2;
 
 
 // Background Color
-$base-background-color: #FFFEC6;
+$base-background-color: #fff;
 
 // Font Colors
 $base-font-color: $dark-gray;
