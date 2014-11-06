@@ -6,11 +6,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Jason Reading // Web Developer in Romford, Essex</title>
     <meta name="description" content="Jason Reading Web Developer Romford and Brentwood. Personal website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/vendor/modernizr/modernizr.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>

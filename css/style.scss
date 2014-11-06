@@ -15,7 +15,7 @@ p.intro {
 
   &__container {
     @include outer-container;
-    @include pad(15% em(45) em(45));
+    @include pad(em(145) em(45) em(45));
   }
 
   &__cell {
