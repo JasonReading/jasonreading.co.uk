@@ -9,6 +9,7 @@
     <title>Jason Reading // Web Developer in Romford, Essex</title>
     <meta name="description" content="Jason Reading Web Developer Romford and Brentwood. Personal website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Roboto:400,600,900">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,14 +21,11 @@
     <article itemscope itemtype="http://data-vocabulary.org/Person">
         <div class="feature">
             <div class="feature__container">
-                <div class="feature__cell"><h1>Hi, I’m <span itemprop="name">Jason Reading</span> and I am a <span
-                            itemprop="title">Web Developer</span>.</h1>
+                <div class="feature__cell">
+                    <h1>Hi, I’m <span itemprop="name">Jason Reading</span> and I am a <span itemprop="title">Web Developer</span>.</h1>
 
-                    <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="intro">I work
-                        at <a
-                            href="http://weebie.co.uk/" target="_blank" itemprop="affiliation">Weebie</a>, a digital
-                        studio in <span
-                            itemprop="locality">Brentwood</span>.</p></div>
+                    <p itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="intro">I work at <a href="http://weebie.co.uk/" target="_blank" itemprop="affiliation">Weebie</a>, a digital studio in <span itemprop="locality">Brentwood</span>.</p>
+                </div>
             </div>
         </div>
 
@@ -61,7 +59,7 @@
 
                     <p>Weebie are a web design and development company in Brentwood.</p>
 
-                    <p><a href="http://weebie.co.uk" target="_blank">http://weebie.co.uk/</a></p>
+                    <p><a href="http://weebie.co.uk" target="_blank">http://weebie.co.uk</a></p>
                 </aside>
                 <aside>
                     <h2>Web Design</h2>

@@ -1,8 +1,8 @@
 // Typography
-$sans-serif: sans-serif;;
+$sans-serif: Roboto, sans-serif;
 $serif: serif;
 $base-font-family: $sans-serif;
-$header-font-family: $serif;
+$header-font-family: $sans-serif;
 
 // Font Sizes
 $base-font-size: 18px;
@@ -34,13 +34,14 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-
+$feature-bg: #D5DED9;
 // Background Color
 $base-background-color: #fff;
 
 // Font Colors
 $base-font-color: $dark-gray;
 $base-accent-color: #CC5D4C;
+$text-color: darken(#7A6A53, 15%);
 
 // Link Colors
 $base-link-color: $base-accent-color;
