@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jason Reading</title>
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Source+Serif+Pro:400,600">
+    <style>
+        body {
+            font-family: "Source Serif Pro", sans-serif;
+            font-size: 112.5%;
+            line-height: 1.55556em;
+            margin: 0;
+        }
+
+        a {
+            color: #358535;
+            text-decoration: underline
+        }
+
+        a:hover {
+            color: #286428
+        }
+
+        h1 {
+            line-height: 1.3;
+            margin-bottom: 0;
+        }
+
+        .intro {
+            margin: 0 auto;
+            max-width: 1000px;
+            padding: 5vh 5vw
+        }
+
+        .intro a {
+            color: #fff;
+        }
+
+        .intro a:hover {
+            color: #ccc;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+        .image img {
+            max-width: 128px;
+        }
+
+        .main {
+            max-width: 1000px;
+            padding: 2vh 5vw;
+            margin: 0 auto
+        }
+
+        .wrapper--intro {
+            background-color: #3ea83e;
+            color: #ecebff
+        }
+
+        @supports (display: grid) {
+            .intro {
+                display: grid;
+                grid-template-columns: 4fr 1fr;
+                grid-template-areas: "header header image" "intro intro image"
+            }
+
+            .intro h1 {
+                grid-area: header
+            }
+
+            .intro .image {
+                grid-area: image;
+                padding: 1em
+            }
+
+            .intro .image img {
+                width: 100%;
+                border-radius: 5%;
+            }
+
+            .intro .intro-p {
+                grid-area: intro
+            }
+
+            @media screen and (max-width: 600px) {
+                .intro {
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "image" "header" "intro"
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper wrapper--intro">
+    <div class="intro">
+        <h1>Jason Reading, Software Engineer.</h1>
+        <div class="image">
+            <img src="https://www.gravatar.com/avatar/927a2bee9ed3ec33c1d191a532b841bd?s=128"/>
+        </div>
+        <p class="intro-p">
+            I am currently working with the great team at <a href="https://www.vouchercodes.co.uk/" rel="noopener" target="_blank">VoucherCodes</a> to help save people money
+        </p>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="main">
+        <p>A London web developer, passionate about all things web. I've found myself drawn towards backend development as of late, but have a experience with many technologies as part of working with small dynamic teams.</p>
+        <p>My previous project was with <a href="https://www.sonyatv.com" target="_blank">Sony/ATV</a> music publishing, in searching and cataloguing music libraries.</p>
+        <p><a href="https://www.mullenlowegroup.com/" target="_blank" rel="noopener">MullenLowe group</a> was home for a couple of years, working as part of an in-house solutions team.</p>
+        <p>There's a few things on my <a href="https://www.github.com/jasonreading" target="_blank">GitHub page</a>, but the real work happens behind closed doors.</p>
+        <p>Contact me at <a href="mailto:jason@jasonreading.co.uk">jason@jasonreading.co.uk</a></p>
+    </div>
+</div>
+
+</body>
+</html>
